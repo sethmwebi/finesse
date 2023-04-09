@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon -w ./src --ext \"ts\" --exec \"pnpm start\"",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "generate": "graphql-codegen"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@graphql-codegen/cli": "^3.3.0",
+    "@graphql-codegen/typescript": "^3.0.3",
+    "@graphql-codegen/typescript-resolvers": "^3.2.0",
     "@tsconfig/node18": "^1.0.1",
     "@types/node": "^18.15.11",
     "dotenv": "^16.0.3",
