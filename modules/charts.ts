@@ -1,0 +1,1 @@
+export { VictoryAxis, VictoryBar, VictoryLabel, VictoryChart, VictoryTheme } from "victory-native"
