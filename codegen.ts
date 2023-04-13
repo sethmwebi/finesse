@@ -6,6 +6,10 @@ const config: CodegenConfig = {
     './src/generated/graphql.ts': {
       config: {
         useIndexSignature: true,
+        typesPrefix: "Gql",
+        mappers: {
+          Lookup: "../graphql/types#Lookup"
+        }
       },
       plugins: ['typescript', 'typescript-resolvers'],
     },

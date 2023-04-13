@@ -26,7 +26,7 @@
     "@apollo/server": "^4.5.0",
     "@apperate/iexjs": "^0.10.0",
     "graphql": "^16.6.0",
-    "graphql-tag": "^2.12.6",
-    "graphql-type-json": "^0.3.2"
+    "graphql-scalars": "^1.21.3",
+    "graphql-tag": "^2.12.6"
   }
 }
